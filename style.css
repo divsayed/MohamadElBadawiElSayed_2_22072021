@@ -1,0 +1,644 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  
+  }
+  .container{
+   margin: 0 auto;
+   width: 95%;
+  }
+  /*pour le de text */
+  .textGras{
+    font-weight: bold;
+  }
+  p{
+      font-size: 14px;
+      color: black;
+  }
+  h4{
+   color: #000;
+}
+  .colorNoir{
+    color: #000;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  .colorBleu{
+    color: #0065FC;
+  }
+  .colorGris{
+    color: #F2F2F2;
+  }
+  .colorBleuClaire{
+    color: #DEEBFF;
+  }
+  /*pour le background*/
+  .backBleu{
+    background: #0065FC;
+  }
+  .backGris{
+    background: #F2F2F2;
+  }
+  .backBleuClaire{
+    background: #DEEBFF;
+  }
+
+   /* partie header*/
+
+  header/*Titre du site (img reservia)*/
+  {
+     margin: auto;
+  }
+  .blocheader{
+     display: flex;
+     justify-content: space-between;
+  }
+  .logo{
+     width: 130px;
+     height: 80px;
+  }
+  /*Navigation du site*/
+  .menu {
+     display: flex;
+     align-items: flex-start;
+     width: 100%;
+  }
+  .lienAncre{  /*nav 2 liens mobile*/
+     width: 100%;
+     display: flex;
+     justify-content: flex-end;
+  }
+  .lien{
+     margin-right: 80px;
+    
+  }
+  .inscrire {    /*lien Fixe*/
+     display: flex;
+  }
+
+  .lien, .sign_up /*config des liens*/
+  {  
+     font-size: 20px;
+    
+     padding: 30px;
+     border-top: 3px solid transparent;
+  }
+  .lien:hover
+  {
+     color: #1462d6;
+     border-top: 3px solid #0065FC ;
+  }
+  .sign_up:hover
+  {
+     border-top: 3px solid #0065FC ;
+  }
+
+   /*fin navigation site*/
+  /*partie map*/
+  .search{
+    display: flex;
+    justify-content:flex-start;
+  }
+  .fa-map-marker-alt{
+  padding: 16px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border: 1px solid #F2F2F2;
+  cursor:pointer;
+  }
+  
+  .search-input{
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #F2F2F2; 
+  }
+  
+  .button{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #F2F2F2;
+    cursor:pointer;
+    /*visibility:hidden dans media queries*/
+  }
+  
+  .button:hover{
+    background-color:rgb(36, 13, 252);
+  }
+  
+  #icon-fa-search{
+    visibility:hidden ; /*rendre insible dans media queries*/
+    padding: 16px;
+    border-radius: 15px;;
+    border: 1px solid #F2F2F2;
+    cursor:pointer;
+    color: white;
+    position: relative;
+    right: 150px;
+  }
+  /* icon filter*/
+  .bloc-icon{
+    display: flex;
+    flex-wrap: wrap;  
+  }
+  .icon-filter{
+    display: flex;
+    align-items: stretch;
+    background-color: transparent;
+    border: 2px solid #DFDFDF;
+    border-radius: 200px;
+    padding: 0;
+    cursor: pointer;
+    /*margin-left: 35px;*/
+    margin:10px;
+  }
+  .icon-filter:hover{
+    background-color: #DEEBFF;
+    border-color: #DEEBFF;
+  }
+  .icon-filter-icon{
+    width: 55px;
+    height: 55px; 
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -2px;
+  }
+  .icon-filter-text{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    font-weight: 700;
+  }
+  .filter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .info{
+    display: flex ;
+    align-items: center;
+    margin-bottom: 30px; 
+  }
+  .fa-info{
+   padding: 10px;
+   border-radius: 50px;
+   width: 16px;
+   text-align: center;
+   border: 2px solid #F2F2F2;
+   margin-right: 18px;
+  }
+  
+  /* section hebergement*/
+  .blocDeuxbloc{
+   display: flex;
+   justify-content: space-between; 
+  }
+  #hebergement{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    flex: 1 70%;
+  }
+
+  #populaire{
+      flex: 1 30%;
+      background-color: #F2F2F2;
+      border-radius: 20px;
+      margin-left: 35px;
+  }
+  .lieu{       
+    margin: 31px 38px;  
+  }
+  .tousCartes1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+  }
+  .cube h4{
+     width: 180px;
+     margin: 0px 0 0 9px;
+  }
+ 
+  .carte1{
+    height: 305px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 11px #e2e2e2;
+    flex: 0 30%;
+    text-decoration: none;  
+}
+.blocP1{
+    margin: 0;
+    padding: 5px;
+}
+.prix
+{
+   width: 150px;
+   margin: 5px 0 0 9px;
+}
+.fas.fa-star
+{
+   margin: 8px -14px 0 9px;
+}
+img.cannebiere /*les images*/
+{
+   width: 100%;
+   height: 200px;
+   border-radius: 20px 20px 0 0;
+   object-fit: cover;
+}
+.afficher-plus{
+    margin: 35px 42px;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* section populaire*/
+.titrePop{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 90% ;
+  margin:15px auto ;
+}
+.prix1
+{
+   font-size: 15px;
+}
+.note
+{
+   margin: 55px 0 0 -9px;
+}
+.tousCartes2{
+  display: flex;
+  flex-direction: column;
+}
+
+i.fas.fa-chart-line
+{
+   font-size: 23px;
+}
+.blockp2-p2{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+.matin
+{
+   flex: 1 40%;
+   max-width: 40%;
+   height: 100%;
+   border-radius: 20px 0 0 20px;
+   object-fit: cover;
+}
+.carte2{
+   height: 240px;
+   color: #000;
+   display: flex;
+   margin: 0 25px 0 25px; /*rajouter pour faire de marge gris*/
+  }
+
+.cubeAside-side{
+  flex: 1 60%;
+  margin-left: 10px;
+}
+
+
+/* partie activité -- */
+#activiteAmarseille{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 35px;
+}
+#activiteAmarseille p{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 26px;;
+}
+
+.toucartesM{
+  display: flex;
+  justify-content: space-between;
+}
+.bloc1{
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 4px 4px 11px #e2e2e2;
+  flex: 0 24%;
+}
+  
+img.vieux-port
+{
+   border-radius: 20px 20px 0 0;
+   height:550px;
+   width: 100%;
+   object-fit: cover;  
+}
+p.titrePort
+{
+   margin: 0 auto;
+   padding: 9px 0px 9px 15px;
+   background-color: white;
+   border-radius: 0 0 10px 10px;
+   font-weight: bold;
+}           
+
+.bloc2{ /*BLOCK 2 photo et text*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 24%;
+}
+
+.grandImage{
+   background-color: #fff;
+   border-radius: 20px;
+   box-shadow: 4px 4px 11px #e2e2e2;
+}
+
+img.fort{
+   border-radius: 20px 20px 0 0;
+   height: 290px;
+   width: 100%;
+   margin: 0 auto;
+   object-fit: cover;  
+}
+.titreFort{
+   margin: 0 auto;
+   padding: 9px 0px 9px 15px;
+   background-color: white;
+   border-radius: 0 0 20px 20px;
+   font-weight: bold;
+}
+.petiteImage /*Petite photo*/
+{
+   background-color: #ffffff;
+   border-radius: 20px;
+   box-shadow: 4px 4px 11px #e2e2e2;
+   width: 100%;
+}
+img.iles{
+   border-radius: 20px 20px 0 0;
+   height: 190px;
+   width: 100%;
+   margin: 0 auto;
+   object-fit: cover;  
+}
+
+p.titreIles{
+   margin: 0 auto;
+   padding: 9px 0px 9px 15px;
+   background-color: white;
+   border-radius: 0 0 10px 10px;
+   font-weight: bold;
+}
+
+
+.bloc3 /*BLOCK 3 Photo et legende*/
+{
+   background-color: #fff;
+   border-radius: 20px;
+   box-shadow: 4px 4px 11px #e2e2e2;
+   flex: 0 24%;
+}
+img.calanque{
+   border-radius: 20px 20px 0 0;
+   width: 100%;
+   height: 550px;
+   object-fit: cover;
+}
+p.titreCalanque{
+   margin: 0 auto;
+   padding: 9px 0px 9px 15px;
+   background-color: white;
+   border-radius: 0 0 10px 10px;
+   font-weight: bold;
+}
+.bloc4 /*BLOCK 4 photo et text*/
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex: 0 24%;
+}
+.petiteImage1/*Petite photo*/
+{
+   background-color: #ffffff;
+   border-radius: 20px;
+   box-shadow: 4px 4px 11px #e2e2e2;
+}
+img.dame
+{
+   border-radius: 20px 20px 0 0;
+   width: 100%;
+   height: 190px;
+   object-fit: cover;
+   object-position: 0px -21px;  
+}
+p.titreDame
+{
+   margin: 0 auto;
+   padding: 9px 0px 9px 15px;
+   background-color: white;
+   border-radius: 0 0 20px 20px;
+   font-weight: bold;
+}
+.grandImage1/*Grande photo*/
+{
+   background-color: #fff;
+   border-radius: 20px;
+   box-shadow: 4px 4px 11px #e2e2e2;
+}
+img.parc{
+   border-radius: 10px 10px 0 0;
+   width: 100%;
+   height: 290px;  
+   object-fit: cover;
+}
+.titreParc{
+   margin: 0 auto;
+   padding: 9px 0px 9px 15px;
+   background-color: white;
+   border-radius: 0 0 10px 10px;
+   font-weight: bold;
+}
+/* partie footer*/
+.piedDepage{
+  background-color:#F2F2F2 ;
+  padding: 20px;
+
+}
+  .flexFooter{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footTitre
+{
+   flex: 0 30%;
+}
+  
+ /*----media queries------*/
+
+
+  @media screen and (max-width: 900px){
+   .flexFooter{
+       flex-direction: column;
+   }
+   /*HEBERGEMENT*/
+   .blocDeuxbloc{
+       display: flex;
+       flex-wrap: wrap-reverse;
+   }
+   .carte1{
+      flex: 0 85%;
+      
+   }
+      .carte2{
+   font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 0;
+        
+   }  
+   }
+
+@media screen and (max-width: 767px){
+
+/*liens ancre*/
+.blocheader{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    flex-direction: column-reverse;
+}
+.lien{
+   border-top: none;
+    border-bottom: #DEEBFF 3px solid;
+    margin-bottom: 5px;
+    margin: auto;
+    padding-bottom: 10px;
+    display: flex;
+    flex: 0 50%;
+    justify-content:space-around;
+}
+.lien:hover{
+    border-top: none;
+    border-bottom: #0065FC 3px solid;
+}
+.inscrire{
+    width: 100%;
+    margin-top: -84px;
+    display: flex;
+    justify-content: flex-end;  
+}
+}
+@media screen and (max-width: 632px){
+header{
+    margin: auto;
+    }
+.button{
+    visibility:hidden ;
+}
+#icon-fa-search{
+    visibility: visible;
+}
+}
+
+@media screen and (max-width: 450px){
+#populaire{
+   border-radius: 0;
+   margin-left: -5px;   
+}
+.tousCartes2{
+   width:  440px;
+}
+.toucartesM{
+   width:430px;
+}
+.activites{
+   margin-left: 20px;
+}
+.lieu{
+   width: 340px;
+   margin-right:40px;
+}
+
+.tousCartes1{
+   width:  440px;
+}
+
+.piedDepage{
+   width: 400px;
+   }
+}
+
+  
+@media screen and (max-width: 1200px){
+
+.blocDeuxbloc{
+   display: flex;
+   flex-wrap: wrap-reverse;
+}
+#populaire{
+   margin: 0 auto;
+}
+#hebergement
+{
+    flex: 1 100%;
+    background-color: transparent;
+}
+}
+        
+
+@media screen and (max-width: 1024px){
+
+.toucartesM{
+   flex-direction: column;
+}
+
+.toucartesM img {
+   height: 250px;
+}
+.bloc1{
+   margin: 10px;
+}
+.bloc2{
+   margin: 5px 25PX 0 0PX;
+}
+.bloc3{
+   margin: 10px;  
+}
+.grandImage{
+  margin-left: 10px;
+  width: 100%;
+}
+.grandImage1{
+   margin: 5px 10px 0 10px;
+}
+.petiteImage{
+  margin:15PX 30PX 5PX 10PX;
+}
+.petiteImage1{
+   margin: 5px 10px 10px 10px;
+}
+}
