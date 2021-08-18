@@ -237,8 +237,7 @@ body{
     background-color: white;
     border-radius: 20px;
     box-shadow: 4px 4px 11px #e2e2e2;
-    flex: 0 30%;
-    text-decoration: none;  
+    flex: 0 29%; 
 }
 .blocP1{
     margin: 0;
@@ -485,22 +484,29 @@ p.titreCalanque{
    .carte2{
    font-size: 18px;
    font-weight: bold;
-   margin-bottom: 0;
-        
+   margin-bottom: 0;    
    }  
    }
 
 @media screen and (max-width: 767px){
-
+.container{
+      margin:0 auto;
+      padding: 0 30px;
+ }
 /*liens ancre*/
 .blocheader{
     display: flex;
     flex-direction: column;
+    margin-left:18px;
 }
 
 .menu{
     flex-direction: column-reverse;
 }
+.lien, .sign_up /*config des liens*/
+  {  
+     font-size: 16px;
+  }
 .lien{
    border-top: none;
     border-bottom: #DEEBFF 3px solid;
@@ -512,7 +518,7 @@ p.titreCalanque{
     justify-content:space-around;
 }
 .lien:hover{
-    border-top: none;
+    border-top:none;
     border-bottom: #0065FC 3px solid;
 }
 .inscrire{
@@ -520,6 +526,19 @@ p.titreCalanque{
     margin-top: -84px;
     display: flex;
     justify-content: flex-end;  
+}
+.icon-filter-text{
+   font-size: 16px;
+ }
+ .filter-title{
+    font-size: 14px;
+ }
+ #populaire{
+   border-radius: 0;
+   padding-left: -5px;   
+}
+.toucartesM{
+   width:680px;
 }
 }
 @media screen and (max-width: 632px){
@@ -535,26 +554,21 @@ header{
 }
 
 @media screen and (max-width: 450px){
-#populaire{
-   border-radius: 0;
-   margin-left: -5px;   
-}
+
 .tousCartes2{
-   width:  440px;
+   width:  410px;
 }
 .toucartesM{
-   width:430px;
+   width:390px;
 }
-.activites{
-   margin-left: 20px;
-}
+
 .lieu{
    width: 340px;
    margin-right:40px;
 }
 
 .tousCartes1{
-   width:  440px;
+   width:  410px;
 }
 
 .piedDepage{
