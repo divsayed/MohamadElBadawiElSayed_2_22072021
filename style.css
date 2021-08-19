@@ -63,13 +63,9 @@ body{
   /*Navigation du site*/
   .menu {
      display: flex;
-     align-items: flex-start;
-     width: 100%;
   }
   .lienAncre{  /*nav 2 liens mobile*/
-     width: 100%;
      display: flex;
-     justify-content: flex-end;
   }
   .lien{
      margin-right: 80px;
@@ -77,15 +73,17 @@ body{
   }
   .inscrire {    /*lien Fixe*/
      display: flex;
+     justify-content: center;
+     align-items: center;
   }
 
   .lien, .sign_up /*config des liens*/
   {  
      font-size: 20px;
-    
      padding: 30px;
      border-top: 3px solid transparent;
-  }
+   }
+    
   .lien:hover
   {
      color: #1462d6;
@@ -502,11 +500,13 @@ p.titreCalanque{
 
 .menu{
     flex-direction: column-reverse;
+    align-items: stretch;
 }
+
 .lien, .sign_up /*config des liens*/
-  {  
+{  
      font-size: 16px;
-  }
+}
 .lien{
    border-top: none;
     border-bottom: #DEEBFF 3px solid;
@@ -575,7 +575,7 @@ header{
    }
 }
 
-  
+ 
 @media screen and (max-width: 1200px){
 
 .blocDeuxbloc{
