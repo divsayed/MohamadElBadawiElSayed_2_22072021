@@ -3,18 +3,18 @@ body{
   margin: 0 auto;
 }
 .container{
- margin: 0 30px;
+  margin: 0 30px;
 }
 /*pour le de text */
 .textGras{
   font-weight: bold;
 }
 p{
-    font-size: 14px;
-    color: black;
+  font-size: 14px;
+  color: black;
 }
 h4{
- color: #000;
+  color: #000;
 }
 .colorNoir{
   color: #000;
@@ -52,37 +52,36 @@ header/*Titre du site (img reservia)*/
    margin: auto;
 }
 .blocheader{
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .logo{
-   width: 130px;
-   height: 80px;
+  width: 130px;
+  height: 80px;
 }
 /*Navigation du site*/
 .menu {
-   display: flex;
+  display: flex;
 }
 .lienAncre{  /*nav 2 liens mobile*/
-   display: flex;
+  display: flex;
 }
 
 .inscrire {    /*lien Fixe*/
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lien, .sign_up /*config des liens*/
 {  
-   font-size: 16px;
-   padding: 30px;
-   border-top: 3px solid transparent;
+  font-size: 16px;
+  padding: 30px;
+  border-top: 3px solid transparent;
  }
   
- .lien:hover
- {
-    color: #1462d6;
+ .lien:hover{
+   color: #1462d6;
     border-top: 3px solid #0065FC ;
  }
 
@@ -95,35 +94,35 @@ header/*Titre du site (img reservia)*/
 /*fin navigation site*/
 /*partie map*/
 .search{
-  display: flex;
-  justify-content:flex-start;
+    display: flex;
+    justify-content:flex-start;
 }
 .fa-map-marker-alt{
- padding: 16px;
- border-bottom-left-radius: 15px;
- border-top-left-radius: 15px;
- border: 1px solid #F2F2F2;
- cursor:pointer;
+    padding: 16px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 1px solid #F2F2F2;
+    cursor:pointer;
 }
 
 .search-input{
-  padding-left: 15px;
-  font-size: 16px;
-  font-weight: bold;
-  border: 1px solid #F2F2F2; 
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #F2F2F2; 
 }
 
 .button{
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border: 1px solid #F2F2F2;
-  cursor:pointer;
-  /*visibility:hidden dans media queries*/
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #F2F2F2;
+    cursor:pointer;
+    /*visibility:hidden dans media queries*/
 }
 
 .button:hover{
@@ -189,18 +188,18 @@ header/*Titre du site (img reservia)*/
   margin-bottom: 30px; 
 }
 .fa-info{
- padding: 10px;
- border-radius: 50px;
- width: 16px;
- text-align: center;
- border: 2px solid #F2F2F2;
- margin-right: 18px;
+  padding: 10px;
+  border-radius: 50px;
+  width: 16px;
+  text-align: center;
+  border: 2px solid #F2F2F2;
+  margin-right: 18px;
 }
 
 /* section hebergement*/
 .blocDeuxbloc{
- display: flex;
- justify-content: space-between; 
+  display: flex;
+  justify-content: space-between; 
 }
 #hebergement{
   background-color: #F2F2F2;
@@ -209,18 +208,18 @@ header/*Titre du site (img reservia)*/
 }
 
 #populaire{
-    flex: 1 30%;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    margin-left: 40px;
+  flex: 1 30%;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  margin-left: 40px;
 }
 .lieu{ 
-   padding-top: 30px;      
+  padding-top: 30px;      
 }
 .tousCartes1{
- display: flex;
- flex-wrap: wrap;
- justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .cube h4{
    width: 180px;
@@ -240,19 +239,19 @@ header/*Titre du site (img reservia)*/
   padding: 5px;
 }
 .prix{
- width: 150px;
- margin: 5px 0 0 9px;
+  width: 150px;
+  margin: 5px 0 0 9px;
 }
 .fas.fa-star
 {
- margin: 8px -14px 0 9px;
+  margin: 8px -14px 0 9px;
 }
 img.cannebiere /*les images*/
 {
- width: 100%;
- height: 200px;
- border-radius: 20px 20px 0 0;
- object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 .afficher-plus{
   margin: 35px 42px;
@@ -261,23 +260,23 @@ img.cannebiere /*les images*/
 }
 /* section populaire*/
 .titrePop{
-display: flex;
-align-items: center;
-justify-content:space-between;
-width: 90% ;
-margin:15px auto ;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 90% ;
+  margin:15px auto ;
 }
 .prix1
 {
- font-size: 15px;
+  font-size: 15px;
 }
 .note
 {
- margin: 40px 0 0 -9px;
+  margin: 40px 0 0 -9px;
 }
 .tousCartes2{
-display: flex;
-flex-direction: column;
+ display: flex;
+ flex-direction: column;
 }
 
 i.fas.fa-chart-line
@@ -285,170 +284,167 @@ i.fas.fa-chart-line
  font-size: 23px;
 }
 .blockp2{
-display: flex;
-flex-direction: row;
-background-color: white;
-width: 100%;
-border-radius: 20px;
-padding: 5px;
-margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 30px;
 }
 .matin
 {
- flex: 1 40%;
- max-width: 40%;
- height: 100%;
- border-radius: 20px 0 0 20px;
- object-fit: cover;
+  flex: 1 40%;
+  max-width: 40%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+  object-fit: cover;
 }
 .carte2{
- height: 220px;
- color: #000;
- display: flex;
- margin: 0 25px 0 25px; /*rajouter pour faire de marge gris*/
+  height: 220px;
+  color: #000;
+  display: flex;
+  margin: 0 25px 0 25px; /*rajouter pour faire de marge gris*/
 }
 
 .cubeAside{
-margin-left: 10px;
+  margin-left: 10px;
 }
 
 
 /* partie activité -- */
 #activiteAmarseille{
-height: 100%;
-display: flex;
-flex-direction: column;
-padding-bottom: 35px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 35px;
 }
 #activiteAmarseille p{
-font-size: 14px;
-font-weight: bold;
-margin-left: 26px;;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 26px;
 }
 
 .toucartesM{
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .bloc1{
-background-color: #fff;
-border-radius: 20px;
-box-shadow: 4px 4px 11px #e2e2e2;
-flex: 0 24%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 4px 4px 11px #e2e2e2;
+  flex: 0 24%;
 }
 
 .vieux-port{
- border-radius: 20px 20px 0 0;
- height:550px;
- width: 100%;
- object-fit: cover;  
+  border-radius: 20px 20px 0 0;
+  height:550px;
+  width: 100%;
+  object-fit: cover;  
 }
 
-
 .bloc2{ /*BLOCK 2 photo et text*/
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-flex: 0 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 24%;
 }
 
 .grandImage{
- background-color: #fff;
- border-radius: 20px;
- box-shadow: 4px 4px 11px #e2e2e2;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 4px 4px 11px #e2e2e2;
 }
 
 .fort{
- border-radius: 20px 20px 0 0;
- height: 290px;
- width: 100%;
- margin: 0 auto;
- object-fit: cover;  
+  border-radius: 20px 20px 0 0;
+  height: 290px;
+  width: 100%;
+  margin: 0 auto;
+  object-fit: cover;  
 }
 
 .petiteImage /*Petite photo*/
 {
- background-color: #ffffff;
- border-radius: 20px;
- box-shadow: 4px 4px 11px #e2e2e2;
- width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 4px 4px 11px #e2e2e2;
+  width: 100%;
 }
 .iles{
- border-radius: 20px 20px 0 0;
- height: 190px;
- width: 100%;
- margin: 0 auto;
- object-fit: cover;  
+  border-radius: 20px 20px 0 0;
+  height: 190px;
+  width: 100%;
+  margin: 0 auto;
+  object-fit: cover;  
 }
 
 p.titreIles{
- margin: 0 auto;
- padding: 9px 0px 9px 15px;
- background-color: white;
- border-radius: 0 0 10px 10px;
- font-weight: bold;
+  margin: 0 auto;
+  padding: 9px 0px 9px 15px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  font-weight: bold;
 }
 
 
 .bloc3 /*BLOCK 3 Photo et legende*/
 {
- background-color: #fff;
- border-radius: 20px;
- box-shadow: 4px 4px 11px #e2e2e2;
- flex: 0 24%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 4px 4px 11px #e2e2e2;
+  flex: 0 24%;
 }
 .calanque{
- border-radius: 20px 20px 0 0;
- width: 100%;
- height: 550px;
- object-fit: cover;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
 }
 p.titreCalanque{
- margin: 0 auto;
- padding: 9px 0px 9px 15px;
- background-color: white;
- border-radius: 0 0 10px 10px;
- font-weight: bold;
+  margin: 0 auto;
+  padding: 9px 0px 9px 15px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  font-weight: bold;
 }
 .bloc4 /*BLOCK 4 photo et text*/
 {
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- flex: 0 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 24%;
 }
 .petiteImage1/*Petite photo*/
 {
- background-color: #ffffff;
- border-radius: 20px;
- box-shadow: 4px 4px 11px #e2e2e2;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 4px 4px 11px #e2e2e2;
 }
-.dame
-{
- border-radius: 20px 20px 0 0;
- width: 100%;
- height: 190px;
- object-fit: cover;
+.dame{
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
 }
 
 .grandImage1/*Grande photo*/
 {
- background-color: #fff;
- border-radius: 20px;
- box-shadow: 4px 4px 11px #e2e2e2;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 4px 4px 11px #e2e2e2;
 }
 .parc{
- border-radius: 10px 10px 0 0;
- width: 100%;
- height: 290px;  
- object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 290px;  
+  object-fit: cover;
 }
 
 /* partie footer*/
 .piedDepage{
-background-color:#F2F2F2 ;
-padding: 20px;
-
+  background-color:#F2F2F2 ;
+  padding: 20px;
 }
 .flexFooter{
   margin: auto;
@@ -465,27 +461,26 @@ padding: 20px;
 
 @media screen and (max-width: 900px){
  .flexFooter{
-     flex-direction: column;
+   flex-direction: column;
  }
  /*HEBERGEMENT*/
  .blocDeuxbloc{
-     display: flex;
-     flex-wrap: wrap-reverse;
+   display: flex;
+   flex-wrap: wrap-reverse;
  }
  .carte1{
-    flex: 0 100%;
-    
+  flex: 0 100%;   
  }
- .carte2{
- font-size: 18px;
- font-weight: bold;
- margin-bottom: 0;    
+  .carte2{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0;    
  }  
  }
 
 @media screen and (max-width: 767px){
 .container{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 /*liens ancre*/
 .blocheader{
@@ -494,11 +489,11 @@ padding: 20px;
 }
 
 .blocheader .titre{
- margin: 0 30px;
+  margin: 0 30px;
 }
 
 .margin-responsive{
- margin: 0 30px;
+  margin: 0 30px;
 }
 
 .menu{
@@ -508,10 +503,10 @@ padding: 20px;
 
 .lien, .sign_up /*config des liens*/
 {  
-   font-size: 16px;
+ font-size: 16px;
 }
 .lien{
- border-top: none;
+  border-top: none;
   border-bottom: #DEEBFF 3px solid;
   margin-bottom: 5px;
   margin: auto;
@@ -521,12 +516,12 @@ padding: 20px;
   justify-content:space-around;
 }
 .lien:hover{
- border-top:none;
- border-bottom: #0065FC 3px solid;
+  border-top:none;
+  border-bottom: #0065FC 3px solid;
 }
 
 .lien-active{
- border-bottom: #0065FC 3px solid;
+  border-bottom: #0065FC 3px solid;
 }
 .inscrire{
   width: 100%;
@@ -535,10 +530,10 @@ padding: 20px;
   justify-content: flex-end;  
 }
 .icon-filter-text{
- font-size: 16px;
+font-size: 16px;
 }
 .filter-title{
-  font-size: 14px;
+font-size: 14px;
 }
 #populaire{
  border-radius: 0;  
@@ -547,28 +542,28 @@ padding: 20px;
 }
 @media screen and (max-width: 632px){
 header{
-  margin: auto;
-  }
+ margin: auto;
+}
 .button{
-  visibility:hidden ;
+ visibility:hidden ;
 }
 #icon-fa-search{
-  visibility: visible;
+ visibility: visible;
 }
 }
 
 @media screen and (max-width: 450px){
 
 .tousCartes2{
- width:  410px;
+width:  410px;
 }
 .toucartesM{
  width:390px;
 }
 
 .lieu{
- width: 340px;
- margin-right:40px;
+  width: 340px;
+  margin-right:40px;
 }
 
 .tousCartes1{
@@ -600,45 +595,43 @@ header{
 @media screen and (max-width: 1024px){
 
 .toucartesM{
- flex-direction: column;
+  flex-direction: column;
 }
 
 .toucartesM img {
- height: 250px;
+  height: 250px;
 }
 
 .carte1{
- margin: 15px 0;
+  margin: 15px 0;
 }
 
 .blocP1{
- padding: 0;
+  padding: 0;
 }
 
 .bloc1{
- margin: 10px 0;
+  margin: 10px 0;
 }
 .bloc2{
- margin: 10px 0;
+  margin: 10px 0;
 }
 .bloc3{
- /*margin: 10px 0; */
- margin-bottom: 15px; 
- margin-top: 10px; 
+  margin: 10px 0 15px; 
 }
 .grandImage{
-width: 100%;
-margin-bottom: 10px;
+  width: 100%;
+  margin-bottom: 10px;
 }
 .grandImage1{
- margin: 10px 0;
+  margin: 10px 0;
  
 }
 .petiteImage{
-margin-top: 10px;
+  margin-top: 10px;
 }
 .petiteImage1{
- margin-top: 5px;
- margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 }
