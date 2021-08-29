@@ -486,6 +486,7 @@ p.titreCalanque{
 .blocheader{
   display: flex;
   flex-direction: column;
+  width: 475px;
 }
 
 .blocheader .titre{
@@ -555,7 +556,7 @@ header{
 @media screen and (max-width: 450px){
 
 .tousCartes2{
-width:  410px;
+width:  470px;
 }
 .toucartesM{
  width:390px;
@@ -571,7 +572,7 @@ width:  410px;
 }
 
 .piedDepage{
- width: 400px;
+ width: 435px;
  }
 }
 
